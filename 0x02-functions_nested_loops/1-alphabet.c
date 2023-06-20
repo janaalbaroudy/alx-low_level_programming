@@ -1,11 +1,10 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * print_alphabet: Entry point
- * Description: Prints all alphabet in lowercase
+ * print_alphabet -  Prints all alphabet in lowercase
  * Return: 0
  */
-void print_alphabet(void)
+void print_alphabet(void);
 {
 char letter;
 for (letter = 'a'; letter <= 'z'; letter++)
